@@ -1,6 +1,7 @@
 const components = [
   'basic-tags',
   'textual-tags',
+  'lists-tags',
 ];
 
 components.forEach(name => {
