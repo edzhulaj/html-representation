@@ -9,13 +9,7 @@ This repository contains materials I'm studying and practicing while following t
 ## Topics Covered
 
 - **Basic Tags** — !DOCTYPE, html, body, head, meta
-
-
-## Project Structure
-```
-├── index.html
-└── README.md
-```
+- **Textual Tags** - h1-h6, title, p, hr, br, b/strong, pre, i/em, mark, sub, sup, link
 
 ## Resources
 

@@ -1,8 +1,14 @@
-class BasicTags extends HTMLElement {
-  connectedCallback() {
-    fetch("headers/basic-tags.html")
-      .then((response) => response.text())
-      .then((html) => (this.innerHTML = html));
-  }
-}
-customElements.define("basic-tags", BasicTags);
+const components = [
+  'basic-tags',
+  'textual-tags',
+];
+
+components.forEach(name => {
+  customElements.define(name, class extends HTMLElement {
+    connectedCallback() {
+      fetch(`headers/${name}.html`)
+        .then(r => r.text())
+        .then(html => this.innerHTML = html);
+    }
+  });
+});
