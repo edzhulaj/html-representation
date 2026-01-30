@@ -11,6 +11,7 @@ This repository contains materials I'm studying and practicing while following t
 - **Basic Tags** — !DOCTYPE, html, body, head, meta
 - **Textual Tags** - h1-h6, title, p, hr, br, b/strong, pre, i/em, mark, sub, sup, link
 - **List Tags** - ol, ul, li, dl
+- **Media Tags** - audio, video, iframe, img
 
 ## Resources
 
@@ -23,7 +24,7 @@ This repository contains materials I'm studying and practicing while following t
 - [x] Basic Tags
 - [x] Textual Tags
 - [x] Lists
-- [ ] Media elements
+- [x] Media elements
 - [ ] Tables
 - [ ] Accessibility
 

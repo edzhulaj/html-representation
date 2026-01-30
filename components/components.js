@@ -3,6 +3,7 @@ const components = [
   'textual-tags',
   'lists-tags',
   'table-tags',
+  'media-tags',
 ];
 
 components.forEach(name => {
