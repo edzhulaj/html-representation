@@ -4,6 +4,7 @@ const components = [
   'lists-tags',
   'table-tags',
   'media-tags',
+  'forms-tags',
 ];
 
 components.forEach(name => {

@@ -18,6 +18,7 @@ This repository contains materials I'm studying and practicing while following t
 - [HTML Roadmap — roadmap.sh](https://roadmap.sh/html)
 - [MDN Web Docs — HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [W3C HTML Specification](https://html.spec.whatwg.org/)
+- [CSS Tricks](https://css-tricks.com/)
 
 ## Progress
 
@@ -25,7 +26,7 @@ This repository contains materials I'm studying and practicing while following t
 - [x] Textual Tags
 - [x] Lists
 - [x] Media elements
-- [ ] Tables
+- [x] Tables
 - [ ] Accessibility
 
 ## Author

@@ -1,0 +1,54 @@
+<div id="forms-tags">
+  <h1>Using Forms</h1>
+  <p>
+    Forms in HTML are used to collect data from users. They provide a way for
+    users to input information like text, passwords, and selections, and then
+    submit that data to a server for processing. Forms are created using the
+    <code>&lt;form&gt;</code> element, which contains various input elements
+    like <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, and
+    <code>&lt;select&gt;</code> to define the different fields for user input.
+  </p>
+  <div id="lab-inp">
+    <h2>Labels and Inputs</h2>
+    <p>
+      Labels and inputs are fundamental building blocks for creating forms in
+      HTML. Labels provide descriptive text that tells users what information is
+      expected in a corresponding input field. Input elements, on the other
+      hand, are the interactive controls where users can enter data, such as
+      text, numbers, dates, or make selections from options. They work together
+      to create a user-friendly and accessible form experience.
+      <br />
+      <br />
+      There are <strong>two ways</strong> to pair a label and an input. One is
+      by wrapping the input in a label (implicit), and the other is by adding a
+      for attribute to the label and an id to the input (explicit).
+    </p>
+    <pre>
+      &lt;label&gt;
+        Name:
+        &lt;input type="text" name="name" /&gt;
+      &lt;/label&gt;
+    </pre>
+    <label>
+      Name:
+      <input type="text" name="name" />
+    </label>
+    <p>
+      An explicit label’s for attribute value must match its input’s id value.
+      For example, if for has a value of name, then id should also have a value
+      of name.
+    </p>
+    <pre>
+      &lt;label for="name"&gt;Name: &lt;/label&gt;
+      &lt;input type="text" id="name" name="name" /&gt;
+    </pre>
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" />
+    <p>
+      Unfortunately, an implicit label is not handled correctly by all assistive
+      technologies, even if for and id attributes are used. Therefore, it is
+      always the best idea to use an explicit label instead of an implicit
+      label.
+    </p>
+  </div>
+</div>
